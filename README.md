@@ -1,17 +1,88 @@
 # SwacchMap – Cleanliness Monitoring System
 
 ## 📌 Description
-SwacchMap is a web platform designed to improve public cleanliness by allowing users to report sanitation issues such as garbage dumps or unclean areas. It supports location-based complaint submission and tracking.
+SwacchMap is a Streamlit-based web application that enables users to report, track, and analyze sanitation issues such as garbage dumps or unclean areas. The system integrates data visualization and basic machine learning to provide insights for better cleanliness management.
+
+---
 
 ## 🚀 Features
-- Report cleanliness issues easily
-- Location-based complaint submission
-- Track reported problems
-- Simple and user-friendly interface
+- Report sanitation issues easily  
+- Location-based complaint handling  
+- Data analysis and visualization (graphs)  
+- User authentication system  
+- Interactive dashboard using Streamlit  
+
+---
 
 ## 🛠️ Technologies Used
-- HTML
-- CSS
-- JavaScript
+- Python  
+- Streamlit  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
+
+---
 
 ## 📂 Project Structure
+
+```
+├── app.py
+├── analysis_graphs.py
+├── auth.py
+├── generate_dataset.py
+├── model_training.py
+├── ui.py
+├── waste_dataset.csv
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository  
+```
+git clone https://github.com/your-username/swacchmap.git
+cd swacchmap
+```
+
+2. Install dependencies  
+```
+pip install -r requirements.txt
+```
+
+3. Run the application  
+```
+streamlit run app.py
+```
+
+---
+
+## 📦 Requirements
+
+```
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+```
+
+---
+
+## 📊 Future Improvements
+- Add database integration  
+- Improve UI/UX design  
+- Deploy as a public web app  
+- Enhance machine learning model accuracy  
+
+---
+
+## 👨‍💻 Author
+**Trishanjit Goswami**  
+📧 trishanjitgoswami@gmail.com  
+🔗 https://linkedin.com/in/trishanjitgoswami  
+
+---
