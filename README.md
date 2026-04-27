@@ -1,4 +1,4 @@
-# SwacchMap – Cleanliness Monitoring System
+# SwacchMap – AI-Based Cleanliness Monitoring System
 
 ## 📌 Description
 SwacchMap is a Streamlit-based web application that enables users to report, track, and analyze sanitation issues such as garbage dumps or unclean areas. The system integrates data visualization and basic machine learning to provide insights for better cleanliness management.
@@ -21,6 +21,7 @@ SwacchMap is a Streamlit-based web application that enables users to report, tra
 - NumPy  
 - Matplotlib  
 - Scikit-learn  
+- Geopy  
 
 ---
 
@@ -44,18 +45,18 @@ SwacchMap is a Streamlit-based web application that enables users to report, tra
 
 1. Clone the repository  
 ```
-git clone https://github.com/your-username/swacchmap.git
+git clone https://github.com/trishanjitgoswami/swacchmap.git
 cd swacchmap
 ```
 
 2. Install dependencies  
 ```
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 3. Run the application  
 ```
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
@@ -68,7 +69,13 @@ pandas
 numpy
 matplotlib
 scikit-learn
+geopy
 ```
+
+---
+
+## 🌍 Live Demo
+Coming soon (Streamlit deployment)
 
 ---
 
