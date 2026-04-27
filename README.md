@@ -72,13 +72,6 @@ scikit-learn
 geopy
 ```
 
----
-
-## 🌍 Live Demo
-Coming soon (Streamlit deployment)
-
----
-
 ## 📊 Future Improvements
 - Add database integration  
 - Improve UI/UX design  
